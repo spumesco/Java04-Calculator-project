@@ -1,4 +1,13 @@
 public class ScientificCalculator extends AdvancedCalculator {
+    // https://github.com/spumesco/Java04-Calculator-project/issues/9
+
+    // @Override
+    // public int divide() {
+    //     while (true) {
+    //         Calculator calc = new AdvancedCalculator();
+    //     }
+    // }
+
     public int mod() {
         // result = num1 % num2;
         // int advancedD = divide();

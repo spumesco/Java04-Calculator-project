@@ -30,5 +30,10 @@ public class Main {
         calc_M.setNumbers(10, 2);
         calc_M.divide();
         calc_M.displayResult("/");
+
+        ScientificCalculator calc_mod = new ScientificCalculator();
+        calc_mod.setNumbers(80, 3);
+        calc_mod.mod();
+        calc_mod.displayResult("%");
     }
 }
