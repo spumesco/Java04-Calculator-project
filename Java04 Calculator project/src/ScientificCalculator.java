@@ -14,7 +14,7 @@ public class ScientificCalculator extends AdvancedCalculator {
         // int scientficD = 0;
 
         int i = 0;
-        int remain = 0;
+        // int remain = 0;
 
         // while (true) {
         //     if (num1 >= num2) {
@@ -28,16 +28,20 @@ public class ScientificCalculator extends AdvancedCalculator {
         // }
 
         // if (advancedD == scientficD) {
+
+        int num3 = num1;
+
             while (true) {
-                if (num1 >= num2) {
-                    num1 -= num2;
+                if (num3 >= num2) {
+                    num3 -= num2;
                     i++;
-                } else if (num1 < num2) {
-                    remain = num1;
+                } else if (num3 < num2) {
+                    result = num3;
                     break;
                 }
             }
-            return remain;
+            // return remain;
+        return result;
         }
         // return result;
     // }
