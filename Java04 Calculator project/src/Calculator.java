@@ -1,4 +1,5 @@
 public class Calculator {
+    // https://github.com/spumesco/Java04-Calculator-project/issues/2
     int num1 ;
     int num2 ;
     int result;
